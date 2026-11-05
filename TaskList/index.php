@@ -7,18 +7,11 @@ function e(string $texto): string
     return htmlspecialchars($texto, ENT_QUOTES, 'UTF-8');
 }
 
-// Dados de exemplo, só para ver a página funcionando.
-// Depois esta lista virá do banco, através do TarefaDAO.
-$tarefas = [
-    new Tarefa(1, 'Estudar para a prova',        'alta',  '2026-10-30', '2026-11-03'),
-    new Tarefa(2, 'Fazer compras do mês',        'media', '2026-10-29', '2026-11-05'),
-    new Tarefa(3, 'Organizar a mesa de trabalho', 'baixa', '2026-10-28', '2026-11-10'),
-    new Tarefa(4, 'Pagar conta de luz',          'alta',  '2026-10-25', '2026-10-28', true),
-    new Tarefa(5, 'Responder e-mails',           'media', '2026-10-24', '2026-10-27', true),
-];
-
-$pendentes  = array_filter($tarefas, fn(Tarefa $t) => !$t->isConcluida());
-$concluidas = array_filter($tarefas, fn(Tarefa $t) => $t->isConcluida());
+// As listas começam vazias. Quando o banco estiver pronto, elas virão do TarefaDAO:
+// $pendentes  = $dao->listarPendentes();
+// $concluidas = $dao->listarConcluidas();
+$pendentes  = [];
+$concluidas = [];
 
 $totalPendentes  = count($pendentes);
 $totalConcluidas = count($concluidas);
