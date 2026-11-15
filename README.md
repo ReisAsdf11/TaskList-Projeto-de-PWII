@@ -1,16 +1,16 @@
-<div align="center">
-# ✅ TaskList
+#  TaskList
  
-**Uma lista de tarefas simples, bonita e funcional, feita em PHP + MySQL.**
+> Uma lista de tarefas simples, bonita e funcional, feita em **PHP + MySQL**.
+ 
+A **TaskList** ajuda a organizar o dia a dia: você cadastra tarefas com **importância** e **data de entrega**, acompanha o que está **pendente** e marca como **concluído** com uma caixinha de seleção. Dá para **editar** e **excluir** tarefas, e tudo fica salvo em um banco de dados.
+ 
+Projeto desenvolvido para a disciplina de **PWII** (Programação Web II).
  
 ![PHP](https://img.shields.io/badge/PHP-8%2B-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
  
-*Projeto desenvolvido para a disciplina de **PWII** (Programação Web II).*
- 
-</div>
 
  
 ##  Preview
